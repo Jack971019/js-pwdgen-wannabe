@@ -20,7 +20,7 @@ console.log (favoritecolor);
 
 
 
-document.getElementById("password").value = passwordgenerated;
+document.getElementById("password").innerHTML = passwordgenerated;
 
 
 
