@@ -9,14 +9,18 @@ let dividednumber = selectnumber/selectsecondnumber
 
 
 
-let passwordgenerated= nameUser+surname+favoritecolor+dividednumber
+let passwordgenerated= nameUser+surname+favoritecolor+dividednumber;
 
 
 
 console.log (passwordgenerated);
 
+console.log (favoritecolor);
 
-document.getElementById("Username").innerHTML = passwordgenerated;
+
+
+
+document.getElementById("password").value = passwordgenerated;
 
 
 
